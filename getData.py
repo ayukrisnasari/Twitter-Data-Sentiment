@@ -9,10 +9,10 @@ import sys
 # function untuk load Twitter API
 
 def load_api():
-    access_token = "2612772378-jbq5Liw0yVTHbA3k2s56HJLL6qOVjW86QRykju9"
-    access_token_secret = "tzRDlF3IKNSkWQ5F8MQoD3rEsFAmKH2WFdoGOfyVsD6pS"
-    consumer_key = "lLBKoYEKc4XxDAl41wfQaAk12"
-    consumer_secret = "fJIjLxIT4Qyqe1YV6ZH2bzsTs4Uefhx7rt4CHsZ87G3p6VAw0e"
+    access_token = ""
+    access_token_secret = ""
+    consumer_key = ""
+    consumer_secret = ""
     auth=OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
 
